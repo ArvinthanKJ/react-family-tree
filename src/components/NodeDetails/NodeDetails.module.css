@@ -1,10 +1,11 @@
 .root {
   padding: 10px;
   font-family: monospace;
-  font-size: 9px;
+  font-size: 1.03rem;
   background: #fff;
   border: 1px solid #ddd;
   border-radius: 4px;
+  margin-top: 1.2rem;
 }
 
 .header {

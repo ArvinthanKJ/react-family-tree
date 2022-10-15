@@ -5,7 +5,7 @@ import { Relations } from './Relations';
 import css from './NodeDetails.module.css';
 
 interface NodeDetailsProps {
-  node: Readonly<Node>;
+  node: any;
   className?: string;
   onSelect: (nodeId: string | undefined) => void;
   onHover: (nodeId: string) => void;
